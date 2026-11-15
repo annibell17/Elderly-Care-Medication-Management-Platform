@@ -37,6 +37,7 @@ import { useAuth } from '../context/AuthContext';
 
 export const Navbar: React.FC = () => {
   const { currentRole, t, user } = useAuth();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const drawerRef = useRef<HTMLDivElement>(null);
   useFocusTrap(drawerRef, mobileMenuOpen);
 
