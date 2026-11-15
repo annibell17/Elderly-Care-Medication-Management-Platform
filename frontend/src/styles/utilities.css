@@ -1,0 +1,8 @@
+@layer utilities {
+  .btn-primary {
+    @apply px-4 py-2 rounded-md bg-careteal-600 text-white font-semibold hover:bg-careteal-700 transition-colors;
+  }
+  .btn-primary-outline {
+    @apply px-4 py-2 rounded-md border border-careteal-600 text-careteal-600 hover:bg-careteal-50 transition-colors;
+  }
+}

@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Frontend & Database
+node_modules/
+frontend/node_modules/
+*.db
+backend/carecircle.db
+backend/uploads/
